@@ -27,4 +27,4 @@ jobs:
         pytest tests --cov
         coveralls --service=github
       env:
-        GITHUB_TOKEN: ${{ secrets.coveralls }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
