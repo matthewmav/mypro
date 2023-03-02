@@ -16,3 +16,6 @@ def test_with_fixture(example_fixture):
 
 def test_mul(example_fixture, example_fixture2):
     assert m.mulxy(example_fixture, example_fixture2) == 30
+
+def test_add(example_fixture, example_fixture2):
+    assert m.addxy(example_fixture, example_fixture2) == 17
